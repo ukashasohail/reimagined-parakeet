@@ -1,0 +1,123 @@
+/* body{
+    background: ;
+} */
+
+#main-nav {
+  background: #2c3e50;
+  font-family: "Roboto Mono", monospace;
+  padding: 20px;
+}
+
+#main-nav a {
+  color: white;
+  font-weight: 700;
+  padding: 20px;
+}
+
+#sub-nav-2 {
+  font-size: 0.7rem;
+}
+
+#section-1{
+    background: #1abc9c;
+    color: white;
+    padding: 50px;
+}
+
+#section-3 {
+  background: #1abc9c;
+  color: white;
+  padding: 50px;
+  margin-top: 50px;
+}
+
+#section-1 .avatar {
+  height: 100px;
+  width: 100px;
+}
+
+#section-1 img {
+  height: 20px;
+  width: 50px;
+}
+
+#section-1 .star {
+  height: 15px;
+  width: 15px;
+}
+
+#section-2 img {
+  height: 100px;
+  width: 125px;
+}
+
+#section-2 .star {
+  height: 15px;
+  width: 15px;
+}
+
+
+#section-3 img {
+  height: 20px;
+  width: 50px;
+}
+
+#section-3 .star {
+  height: 15px;
+  width: 15px;
+}
+
+.btn {
+  background-color: #6bd4bf;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#section-4{
+    padding: 50px;
+}
+#section-4 img {
+  height: 20px;
+  width: 50px;
+}
+
+#section-4 .star {
+  height: 15px;
+  width: 15px;
+}
+
+#section-4 input{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+#section-4 textarea{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+#section-5 {
+    background: #2c3e50;
+    color: white;
+    padding: 50px;
+}
+footer {
+    background: #1a252f;
+  color: white;
+  padding: 10px;
+}
+
+.padding-0{
+    padding-right:0;
+    padding-left:0;
+}
