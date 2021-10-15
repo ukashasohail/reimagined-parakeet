@@ -1,11 +1,8 @@
-/* body{
-    background: ;
-} */
-
+/* navbar */
 #main-nav {
   background: #2c3e50;
   font-family: "Roboto Mono", monospace;
-  padding: 20px;
+  padding: 25px;
 }
 
 #main-nav a {
@@ -14,26 +11,21 @@
   padding: 20px;
 }
 
-#sub-nav-2 {
-  font-size: 0.7rem;
+#sub-nav-1{
+  font-size: 1.5rem;
 }
 
+/* section1 */
 #section-1{
     background: #1abc9c;
     color: white;
     padding: 50px;
 }
 
-#section-3 {
-  background: #1abc9c;
-  color: white;
-  padding: 50px;
-  margin-top: 50px;
-}
-
 #section-1 .avatar {
-  height: 100px;
-  width: 100px;
+  height: 250px;
+  width: 250px;
+  padding: 30px;
 }
 
 #section-1 img {
@@ -46,7 +38,25 @@
   width: 15px;
 }
 
-#section-2 img {
+#section-1 h2{
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+#section-1 p{
+  font-size: 1rem;
+}
+
+/* section2 */
+#section-2{
+  padding: 50px;
+}
+
+#section-2 h2{
+  font-weight: 700;
+}
+
+.gallery{
   height: 100px;
   width: 125px;
 }
@@ -56,20 +66,21 @@
   width: 15px;
 }
 
+#section-3 {
+  background: #1abc9c;
+  color: white;
+  padding: 50px;
+  margin-top: 50px;
+}
 
 #section-3 img {
   height: 20px;
   width: 50px;
 }
 
-#section-3 .star {
-  height: 15px;
-  width: 15px;
-}
-
 .btn {
-  background-color: #6bd4bf;
-  border: none;
+  background-color: #1abc9c;
+  border-color: white;
   color: white;
   padding: 12px 16px;
   font-size: 16px;
@@ -111,6 +122,13 @@
     color: white;
     padding: 50px;
 }
+
+#section-5 img{
+  width: 40px;
+  height: 40px;
+  border-spacing: 15px;
+}
+
 footer {
     background: #1a252f;
   color: white;
@@ -120,4 +138,14 @@ footer {
 .padding-0{
     padding-right:0;
     padding-left:0;
+}
+
+.star-svg{
+  width: 15px;
+  height: 15px;
+}
+
+.line-svg{
+  width: 40px;
+  height: 30px;
 }
